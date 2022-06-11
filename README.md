@@ -3,8 +3,8 @@ Indexing makes the query faster because it stores values of indexed columns in s
 location in certain order with record pointer on it. Now instead of search through every
 record of specified column in actual table, MySQL will search to the indexed table which is already
 sorted and therefore easy to identify the matched value. The columns in this case are 
-the ff:\
-\ 
+the ff:
+
 JobCategories.name\
 JobTypes.name\
 Jobs.name\
